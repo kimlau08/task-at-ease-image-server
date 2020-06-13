@@ -1,0 +1,23 @@
+{
+  "name": "task-at-ease-image-server",
+  "version": "1.0.0",
+  "description": "image server for task-at-ease capstone project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimlau08/task-at-ease-image-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimlau08/task-at-ease-image-server/issues"
+  },
+  "homepage": "https://github.com/kimlau08/task-at-ease-image-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

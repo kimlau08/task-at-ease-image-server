@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 //To connect from client: http://localhost:8899/
-// app.listen(PORT, () => console.log(`Express server listening on port: ${PORT}`));
+app.listen(PORT, () => console.log(`Express server listening on port: ${PORT}`));
 
 //To use allocated port on Heroku
-app.listen(process.env.PORT, () => console.log(`Express server listening on port: ${process.env.PORT}`));
+// app.listen(process.env.PORT, () => console.log(`Express server listening on port: ${process.env.PORT}`));
